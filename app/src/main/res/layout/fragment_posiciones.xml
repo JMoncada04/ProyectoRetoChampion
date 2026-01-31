@@ -8,7 +8,40 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
+<<<<<<< Updated upstream
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
+=======
+        android:layout_height="wrap_content"
+        android:stretchColumns="2"> <TableRow
+        android:background="#EEEEEE"
+        android:padding="3dp">
+        <TextView android:text="Pos" android:padding="5dp" android:textStyle="bold" android:textSize="18dp"/>
+        <TextView android:padding="5dp"></TextView>
+        <TextView android:text="Equipo" android:padding="5dp" android:textStyle="bold" android:textSize="18dp"/>
+        <TextView android:text="Ganados" android:padding="5dp" android:textStyle="bold" android:textSize="18dp"/>
+        <TextView android:text="Pts" android:padding="5dp" android:textStyle="bold" android:textSize="18dp"/>
+    </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView android:text="1" android:padding="5dp" android:textSize="18dp"/>
+            <ImageView android:src="@mipmap/arsenal_foreground" android:layout_height="35dp" android:layout_width="40dp"></ImageView>
+            <TextView android:text="Arsenal" android:padding="5dp" android:textSize="18dp"/>
+            <TextView android:text="8" android:padding="5dp" android:textSize="18dp"/>
+            <TextView android:text="24" android:padding="3dp" android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow android:padding="5dp">
+            <TextView android:text="2" android:padding="5dp" android:textSize="18dp"/>
+            <ImageView android:layout_width="40dp" android:layout_height="35dp" android:src="@mipmap/bayermunchen_foreground"></ImageView>
+            <TextView android:text="Bayern Munchen" android:padding="5dp" android:textSize="18dp"/>
+            <TextView android:text="7" android:padding="5dp" android:textSize="18dp"/>
+            <TextView android:text="21" android:padding="3dp" android:textSize="18dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+>>>>>>> Stashed changes
